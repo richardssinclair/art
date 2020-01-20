@@ -1,15 +1,153 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
+@import url("https://fonts.googleapis.com/css?family=Nunito|Roboto");
+.art-grid .pencil-paint {
+  background-image: url("/../images/art.jpg");
+  height: 100%;
+  background-size: cover; }
+
+.art-grid .sculpt {
+  background-image: url("/../images/art.jpg");
+  height: 100%;
+  background-size: cover; }
+
+.art-grid .photo {
+  background-image: url("/../images/art.jpg");
+  height: 100%;
+  background-size: cover; }
+
+.art-grid .film {
+  background-image: url("/../images/art.jpg");
+  height: 100%;
+  background-size: cover; }
+
+.art-grid .art-img {
+  height: 280px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 4px;
+  padding-right: 4px;
+  max-height: 280px; }
+  .art-grid .art-img img {
+    margin-bottom: 2%; }
+  .art-grid .art-img a {
+    color: gray; }
+
+.text-width {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.film-page .slick-prev:before, .film-page .slick-next:before {
+  color: #000 !important; }
+
+.navbar .navbar-brand {
+  font-size: 16px; }
+
+.navbar .nav-link {
+  font-size: 14px; }
+
+.pencils-paint-container {
+  overflow: hidden; }
+  .pencils-paint-container .images-long-container {
+    display: flex;
+    overflow-x: scroll; }
+    .pencils-paint-container .images-long-container img {
+      width: 100vw;
+      max-height: 640px;
+      margin: auto 2%; }
+
+.aboutbg {
+  padding: 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/../images/aboutbg.jpg"); }
+  .aboutbg__content {
+    width: 100%;
+    color: #fff;
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .aboutbg__content .aboutText {
+      text-align: center; }
+      .aboutbg__content .aboutText h1 {
+        color: #fff;
+        font-weight: 200;
+        font-size: 3em;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4); }
+      .aboutbg__content .aboutText p {
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4); }
+
+.bg-light {
+  background-color: #fff !important; }
+  .bg-light .collapse {
+    justify-content: flex-end; }
+
+.banner {
+  text-align: center;
+  margin-bottom: 4rem; }
+  .banner h1 {
+    margin-top: 40px;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif; }
+  .banner h6 {
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif; }
+
+.about {
+  margin-bottom: 3rem; }
+  .about h4 {
+    color: #909090; }
+
+.social {
+  margin-bottom: 1%;
   text-align: center; }
+  .social a {
+    color: #6f6d6d;
+    font-size: 1.4em;
+    margin: 0.4em; }
+  .social a:hover {
+    color: black;
+    cursor: pointer; }
 
-a {
-  color: rgba(0, 0, 0, 0.7); }
-  a:focus, a:hover {
-    color: rgba(0, 0, 0, 0.6); }
+.experience {
+  margin-bottom: 4rem; }
+  .experience h2 {
+    text-align: center;
+    margin-bottom: 4rem; }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem; }
+.projects {
+  margin-bottom: 4rem; }
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 4rem; }
+  .projects a {
+    color: black; }
+  .projects a:hover {
+    color: gray;
+    text-decoration: none; }
+
+.project-page {
+  margin-top: 4em;
+  margin-bottom: 2em; }
+  .project-page a {
+    color: black; }
+  .project-page a:hover {
+    color: gray;
+    text-decoration: none; }
+
+@media (min-width: 576px) {
+  .experience {
+    width: 75%; }
+  .projects {
+    width: 75%; }
+  .project-page {
+    width: 50%; } }
+
+@media (min-width: 768px) {
+  .experience {
+    width: 50%; }
+  .projects {
+    width: 50%; }
+  .project-page {
+    width: 50%; } }
