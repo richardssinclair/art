@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito|Roboto");
 .art-grid .pencil-paint {
-  background-image: url("/../images/art.jpg");
+  background-image: url("../images/art.jpg");
   height: 100%;
   background-size: cover; }
 
 .art-grid .sculpt {
-  background-image: url("/../images/art.jpg");
+  background-image: url("../images/art.jpg");
   height: 100%;
   background-size: cover; }
 
 .art-grid .photo {
-  background-image: url("/../images/art.jpg");
+  background-image: url("../images/art.jpg");
   height: 100%;
   background-size: cover; }
 
 .art-grid .film {
-  background-image: url("/../images/art.jpg");
+  background-image: url("../images/art.jpg");
   height: 100%;
   background-size: cover; }
 
